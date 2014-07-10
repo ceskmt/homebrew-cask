@@ -5,5 +5,7 @@ class Karabiner < Cask
   url 'https://pqrs.org/osx/karabiner/files/Karabiner-10.0.0.dmg'
   homepage 'https://pqrs.org/osx/karabiner/'
   install 'Karabiner.pkg'
-  
+  uninstall :files => [
+  '/Applications/Karabiner.app/Contents/Applications/KarabinerUninstaller.app'
+  ]
 end

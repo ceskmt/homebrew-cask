@@ -1,4 +1,4 @@
-cask :v1 => 'codekit' do
+cask :v1 => 'codekit2' do
   version '2.3-18892'
   sha256 '167cf3ea417718273de0f706a99f635febfca5bdb83ba495131f00613d06b74c'
 
